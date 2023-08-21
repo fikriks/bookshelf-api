@@ -1,0 +1,16 @@
+{
+  "name": "bookself-api",
+  "version": "1.0.0",
+  "description": "Bookself API For Submission Make Back-End App At Dicoding Platform",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "api",
+    "nodejs",
+    "dicoding"
+  ],
+  "author": "Fikri Khairul Shaleh",
+  "license": "ISC"
+}
