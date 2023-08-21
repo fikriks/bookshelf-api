@@ -4,7 +4,7 @@
   "description": "Bookself API For Submission Make Back-End App At Dicoding Platform",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "nodemon ./src/server.js"
   },
   "keywords": [
     "api",
@@ -12,5 +12,15 @@
     "dicoding"
   ],
   "author": "Fikri Khairul Shaleh",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "@hapi/hapi": "^21.3.2",
+    "nanoid": "^4.0.2"
+  },
+  "devDependencies": {
+    "eslint": "^8.47.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.28.1",
+    "nodemon": "^3.0.1"
+  }
 }
